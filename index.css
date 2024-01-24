@@ -76,6 +76,22 @@
 .home-link:hover {
   border-color: var(--dl-color-gray-black);
 }
+@media(max-width: 1600px) {
+  .home-link {
+    color: var(--dl-color-gray-black);
+    font-family: Courier New;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+@media(max-width: 1200px) {
+  .home-link {
+    color: var(--dl-color-gray-black);
+    font-family: Courier New;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
 @media(max-width: 991px) {
   .home-hero {
     flex-direction: column;
@@ -110,6 +126,9 @@
   }
   .home-link {
     color: var(--dl-color-gray-black);
+    font-family: Courier New;
+    font-weight: 700;
+    text-decoration: none;
   }
 }
 @media(max-width: 767px) {
@@ -143,6 +162,9 @@
   }
   .home-link {
     color: var(--dl-color-gray-black);
+    font-family: Courier New;
+    font-weight: 700;
+    text-decoration: none;
   }
 }
 @media(max-width: 479px) {
