@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flamboyant United Gull</title>
+    <meta property="og:title" content="Flamboyant United Gull" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-hero">
+          <img
+            alt="image"
+            src="public/slides-gif-1500h.gif"
+            loading="eager"
+            class="home-image"
+          />
+          <div class="home-container1">
+            <animate-on-reveal>
+              <h1 data-thq-animate-on-reveal="true" class="home-text">
+                <span class="home-text01">devs and consultants</span>
+                <span>with experience in</span>
+                <span class="home-text03">
+                  development, launch, and scaling of apps
+                </span>
+                <span>that have served</span>
+                <span class="home-text05">
+                  hundreds of thousands of customers
+                </span>
+                <span class="home-text06">, raising</span>
+                <span class="home-text07">millions of dollars</span>
+              </h1>
+            </animate-on-reveal>
+            <span class="home-text08">
+              <span>
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  non volutpat turpis.
+                </span>
+                <span></span>
+              </span>
+              <span>
+                <span>
+                  Mauris luctus rutrum mi ut rhoncus. Integer in dignissim
+                  tortor.
+                </span>
+                <span></span>
+              </span>
+            </span>
+            <div class="home-btn-group">
+              <a
+                href="https://cal.com/josue.0/sudo"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link button"
+              >
+                book a meeting
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDE4JHA1oCDAOEukmM-9yiERrYYKUqABok",
+        authDomain: "sudowoodo-xyz.firebaseapp.com",
+        projectId: "sudowoodo-xyz",
+        storageBucket: "sudowoodo-xyz.appspot.com",
+        messagingSenderId: "89989993628",
+        appId: "1:89989993628:web:acaaf1e3f1f7f16a940959",
+        measurementId: "G-HB3WFEW8JC"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script>
+  </body>
+</html>
